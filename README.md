@@ -4,6 +4,8 @@ Inspiration: [Patrick Collison Personal Website](https://patrickcollison.com/abo
 
 Server side handled via: [Pm2](https://www.npmjs.com/package/pm2)
 
+Server setup [Here](https://www.codementor.io/@tomgeraghty/hosting-an-express-server-nodejs-application-with-linode-e1j7wt7mr)
+
 ### Hi there 👋
 
 #### 
