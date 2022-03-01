@@ -1,7 +1,5 @@
 # personal_website
 
-Inspiration: 
-
 ### Hi there 👋
 
 #### 
