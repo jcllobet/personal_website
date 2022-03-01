@@ -1,6 +1,8 @@
 body {
     margin-left: 300px;
     font-family: 'Roboto', sans-serif;
+    background-color: #0D0E0E;
+    color: white;
 }
 
 h3 {
@@ -8,9 +10,50 @@ h3 {
     color:blueviolet;
 }
 
-.resize {
+p { margin:2px }
+ul { margin:5px }
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#01FD84;
+}
+
+a:active {
+    text-decoration: underline;
+    color:#01FD84;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.marginleft {
+    padding-left: 50px;
+}
+.square {
+    object-fit: cover;
     width: 200px;
-    height: auto;
+    height: 200px;
+}
+
+.leftCenter{
+    object-position: 30% 70%;
+}
+
+.leftPart {
+    object-position: left;
 }
    
 .main-part {
@@ -23,5 +66,9 @@ h3 {
 .box {
     display: flex;
     align-items: left;
+    padding-right: 50px;
 }
 
+.card {
+    padding-right: 50px;
+}

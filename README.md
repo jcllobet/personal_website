@@ -4,7 +4,7 @@ Inspiration:
 
 ### Hi there 👋
 
-#### I'm a Data Scientist with a passion for product and startups.
+#### 
 
 ##### NOW
 
