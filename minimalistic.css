@@ -1,0 +1,27 @@
+body {
+    margin-left: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    margin:0px;
+    color:blueviolet;
+}
+
+.resize {
+    width: 200px;
+    height: auto;
+}
+   
+.main-part {
+    width:100%;
+    height:auto;
+}
+
+
+
+.box {
+    display: flex;
+    align-items: left;
+}
+
