@@ -8,7 +8,7 @@ Inspiration: [Patrick Collison Personal Website](https://patrickcollison.com/abo
 
 ##### NOW
 
-- ✨ Freelancing as a Data Scientist. Best way to reach out is via the email or on Twitter;
+- ✨ Freelancing (Data Science / ML Eng)
 - 🧑‍💻 Going deep into JavaScript and React Native;
 - 🏊🏽‍♂️🚵🏽‍♂️🏃 Training for a half-ironman (July 3rd).
 
