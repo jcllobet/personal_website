@@ -2,6 +2,8 @@
 
 Inspiration: [Patrick Collison Personal Website](https://patrickcollison.com/about)
 
+Server side handled via: [Pm2](https://www.npmjs.com/package/pm2)
+
 ### Hi there 👋
 
 #### 
