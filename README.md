@@ -1,5 +1,7 @@
 # personal_website
 
+Inspiration: [Patrick Collison Personal Website](https://patrickcollison.com/about)
+
 ### Hi there 👋
 
 #### 
