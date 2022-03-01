@@ -61,7 +61,29 @@ a:active {
     height:auto;
 }
 
+.highlight {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 100%;
+    border-radius: 3px;
+    padding: 1px;
+}
 
+.hRed {
+    background: linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%);
+}
+
+.hGreen {
+    background: linear-gradient(120deg, #DBEDDB 0%, #DBEDDB 100%);
+}
+
+.hBlue {
+    background: linear-gradient(120deg, #D3E5EF 0%, #D3E5EF 100%);
+}
+
+.hBlue {
+    background: linear-gradient(120deg, #D3E5EF 0%, #D3E5EF 100%);
+}
 
 .box {
     display: flex;
