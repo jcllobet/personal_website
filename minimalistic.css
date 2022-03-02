@@ -89,7 +89,7 @@ a:active {
 
 .box {
     width: 420px;
-    height: 230px;
+    height: 240px;
     display: flex;
     align-items: left;
     scroll-direction: horizontal;
@@ -103,4 +103,10 @@ a:active {
 .card {
     width: 200px;
     height: 200px;
+}
+
+.card > img {
+    border-radius: 12px;
+    filter: grayscale(30%);
+    margin-bottom: 0.5rem;
 }
