@@ -109,4 +109,5 @@ a:active {
     border-radius: 12px;
     filter: grayscale(30%);
     margin-bottom: 0.5rem;
+    user-drag: none;
 }
