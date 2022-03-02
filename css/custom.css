@@ -1,27 +1,17 @@
-body {
-    margin-left: 300px;
+/* body {
     font-family: 'Roboto', sans-serif;
     background-color: #0D0E0E;
     color: white;
-}
-
-h3 {
-    margin:0px;
-    color:blueviolet;
-}
-
-p { margin:2px }
-ul { margin:5px }
-
+} */
 
 a:link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
   
 a:visited {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -34,14 +24,49 @@ a:active {
     color:#01FD84;
 }
 
+.navbar-lewagon {
+    justify-content: space-between;
+    background: white;
+}
+  
+  .navbar-lewagon .navbar-collapse {
+    flex-grow: 0;
+}
+  
+  .navbar-lewagon .navbar-brand img {
+    width: 40px;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+}
+  
+.avatar-large {
+    width: 56px;
+    border-radius: 50%;
+}
+  
+.avatar-bordered {
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: white 1px solid;
+}
+  
+.avatar-square {
+    width: 40px;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: white 1px solid;
+}
+
 .tab {
     display: inline-block;
     margin-left: 40px;
 }
 
-.marginleft {
-    padding-left: 50px;
-}
+
 .square {
     object-fit: cover;
     width: 200px;
@@ -85,7 +110,7 @@ a:active {
     background: linear-gradient(120deg, #D3E5EF 0%, #D3E5EF 100%);
 }
 
-.box {
+/* .box {
     display: flex;
     align-items: left;
     padding-right: 50px;
@@ -94,3 +119,7 @@ a:active {
 .card {
     padding-right: 50px;
 }
+
+.marginleft {
+    padding-left: 50px;
+} */

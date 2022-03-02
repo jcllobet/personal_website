@@ -1,31 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="shortcut icon" href="#">
-        <link rel="stylesheet" href="./minimalistic.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Bare - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
     </head>
-
     <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container">
+            <div class="text-right mt-5">
+                <h2>Hi there 👋</h2>
+                <p class="lead">My name is <a href="https://www.linkedin.com/in/jancarbonell/">Jan Carbonell</a></p>
+                <p>I have a passion for product, education and startups.</p>
+                <p>🏊🏽‍♂️🚵🏽‍♂️🏃 Training for a half-ironman (July 3rd).</p>
+            </div>
+            
+            <div class="text-right mt-5">
+              <h4>What I am doing now</h4>
+              <p>✨ Freelancing (Remote).</p>
+              <p>🧑‍💻 Going deep into JavaScript and React Native at <a href="https://strive.school/">strive.school</a></p>
+            </div>
 
-    <h2>Hi there 👋</h2>
+            <div class="text-right mt-5">
+              <h4>Bio</h4>
+              <p>⚙ I have fun with: <code>.py, .pkl, .h5, .json, .js, .html, .css, .rb, .c</code> </p>
+              <p>🌍 I'm quite active within the <a href="https://community.saturdays.ai/home"><b>SaturdaysAI Community</b></a></p>
+              <p>🌱 Learning interests:  <mark class="highlight hRed"> Deep Learning</mark>, <mark class="highlight hGreen">Fullstack Development</mark>, <mark class="highlight hBlue">AWS Cloud Stack</mark>.</p>
+              <p>💬 DM me at <a href="https://twitter.com/jcllobet">twitter.com/jcllobet</a></p>
+            </div>
+            <div class="text-right mt-5">
+              <p>👷🏗️ Some stuff I have built: </p>
+                  <ul></ul>
+                  <ul><a href="https://saturdays.ai/">A non-profit to make AI education more accessible</a></ul>
+                  <ul><a href="https://www.akademy.ai"> A coding bootcamp (Aquired)</a></ul>
+                  <ul><a href="https://devpost.com/software/hackupc_asl_video_platform">A live American Sign Language ↔️ voice  translator</a></ul>
+                  <ul><a href="https://devpost.com/software/anewsense">An ultrasound obstacle detection device Sense</a></ul>
+                  <ul><a href="https://devpost.com/software/vertex">An algorithm to cluster websites by text similarity</a></ul>
+                  <ul><a href="https://devpost.com/software/omniguide">A haptic-based navigation system for the blind</a></ul>
+                  <ul><a href="https://novobrief.com/startup-weekend-barcelona/6835/">StartupWeekend Barcelona</a></ul>
+              <br>
+              <p>⚡️ Fun fact: I'm a huge fan of Historial Fiction  <i>-specially about Rome-</i> and Science Fiction.</p>   
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
 
-    <p>My name is <a href="https://www.linkedin.com/in/jancarbonell/">Jan Carbonell</a></p>
-    <p>I have a passion for product, education and startups.</p>
-    <p>🏊🏽‍♂️🚵🏽‍♂️🏃 Training for a half-ironman (July 3rd).</p>
 
 
-    <div class='main-part'>
-		<h4>My journey so far:</h4>
+
+    
+    
+
+
+    <!-- <div class='main-part'>
+    <h4>My journey so far:</h4>
         <div class='box'>
             <div class="card">
                 <img src='../assets/dreamer.jpeg' class="square">
                 <p>⚙Industrial Engineer </p>
             </div>
-			
+      
             <div class="card">
                 <img src='../assets/consultant.jpeg' class="square">
                 <p>➡️ Strategy Consultant </p>
@@ -42,32 +109,8 @@
                 <img src='../assets/coding.jpeg' class="square leftPart">
                 <p>🤖 AI/ML Engineer </p>
             </div>
-		</div>	
-    </div>
+    </div>	
+    </div> -->
 
 
-    <h4>What I am doing now</h4>
-    <p>✨ Freelancing (Remote).</p>
-    <p>🧑‍💻 Going deep into JavaScript and React Native at <a href="https://strive.school/">strive.school</a></p>
-
-    <h4>Bio</h4>
-    <p>⚙ I have fun with: <code>.py, .pkl, .h5, .json, .js, .html, .css, .rb, .c</code> </p>
-    <p>🌍 I'm quite active within the <a href="https://community.saturdays.ai/home"><b>SaturdaysAI Community</b></a></p>
-    <p>🌱 Learning interests:  <mark class="highlight hRed"> Deep Learning</mark>, <mark class="highlight hGreen">Fullstack Development</mark>, <mark class="highlight hBlue">AWS Cloud Stack</mark>.</p>
-    <p>💬 DM me at <a href="https://twitter.com/jcllobet">twitter.com/jcllobet</a></p>
-    <br>
-    <p>👷🏗️ Some stuff I have built: </p>
-        <ul></ul>
-        <ul><a href="https://saturdays.ai/">A non-profit to make AI education more accessible</a></ul>
-        <ul><a href="https://www.akademy.ai"> A coding bootcamp (Aquired)</a></ul>
-        <ul><a href="https://devpost.com/software/hackupc_asl_video_platform">A live American Sign Language ↔️ voice  translator</a></ul>
-        <ul><a href="https://devpost.com/software/anewsense">An ultrasound obstacle detection device Sense</a></ul>
-        <ul><a href="https://devpost.com/software/vertex">An algorithm to cluster websites by text similarity</a></ul>
-        <ul><a href="https://devpost.com/software/omniguide">A haptic-based navigation system for the blind</a></ul>
-        <ul><a href="https://novobrief.com/startup-weekend-barcelona/6835/">StartupWeekend Barcelona</a></ul>
-    <br>
-
-    <p>⚡️ Fun fact: I'm a huge fan of Historial Fiction  <i>-specially about Rome-</i> and Science Fiction.</p>
-
-    </body>
-</html>
+     
