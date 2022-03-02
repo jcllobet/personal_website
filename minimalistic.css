@@ -1,8 +1,10 @@
 body {
-    margin-left: 300px;
+    max-width: 500px;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
     background-color: #0D0E0E;
     color: white;
+    overflow-x: hidden;
 }
 
 h3 {
@@ -86,11 +88,30 @@ a:active {
 }
 
 .box {
+    max-width: 460px;
+    height: 260px;
     display: flex;
     align-items: left;
-    padding-right: 50px;
+    scroll-direction: horizontal;
+    overflow-x: auto;
+    -webkit-mask-image: -webkit-gradient(
+    linear, left center, right center, 
+    color-stop(0.95,  rgba(0,0,0,1)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+}
+
+.box > :not(:last-child) {
+    padding-right: 20px;
 }
 
 .card {
-    padding-right: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card > img {
+    border-radius: 12px;
+    filter: grayscale(30%);
+    margin-bottom: 0.5rem;
+    user-drag: none;
 }
