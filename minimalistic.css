@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #0D0E0E;
     color: white;
+    overflow-x: hidden;
 }
 
 h3 {
@@ -87,11 +88,19 @@ a:active {
 }
 
 .box {
+    width: 420px;
+    height: 230px;
     display: flex;
     align-items: left;
-    padding-right: 50px;
+    scroll-direction: horizontal;
+    overflow-x: auto;
+}
+
+.box > :not(:last-child) {
+    padding-right: 20px;
 }
 
 .card {
-    padding-right: 50px;
+    width: 200px;
+    height: 200px;
 }
